@@ -1,15 +1,13 @@
-package my.learn.spring.basic.springin5steps;
+package my.learn.spring.basic.springin5steps.basic;
 
-import org.springframework.context.annotation.Primary;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
+@Qualifier("bubble")
 public class BubbleSortAlgorithm implements SortAlgorithm {
-
     @Override
     public int[] sort(int[] numbers) {
-
         return numbers;
     }
 }
