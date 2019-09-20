@@ -1,6 +1,6 @@
 package my.learn.junit;
 
-public class MyMain {
+public class MyMath {
     int sum(int[] numbers) {
         int sum = 0;
         for (int i : numbers) {
