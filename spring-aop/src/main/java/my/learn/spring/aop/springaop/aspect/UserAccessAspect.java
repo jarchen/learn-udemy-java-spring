@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Aspect
 @Configuration
-public class UseAccessAspect {
+public class UserAccessAspect {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Before("execution(* my.learn.spring.aop.springaop.business.*.*(..))")
