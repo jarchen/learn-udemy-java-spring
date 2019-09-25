@@ -1,14 +1,15 @@
-package my.learn.spring.aop.springaop;
+package my.learn.spring.aop.springaop.business;
 
+import my.learn.spring.aop.springaop.data.Dao1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class Business2 {
+public class Business1 {
     @Autowired
-    private Dao2 dao2;
+    private Dao1 dao1;
 
     public String caculateSomething() {
-        return dao2.retrieveSomething();
+        return dao1.retrieveSomething();
     }
 }

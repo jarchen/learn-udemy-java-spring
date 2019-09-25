@@ -1,10 +1,10 @@
-package my.learn.spring.aop.springaop;
+package my.learn.spring.aop.springaop.data;
 
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class Dao2 {
+public class Dao1 {
     public String retrieveSomething() {
-        return "Dao2";
+        return "Dao1";
     }
 }
