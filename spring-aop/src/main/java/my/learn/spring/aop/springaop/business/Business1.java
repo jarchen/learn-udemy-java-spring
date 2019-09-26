@@ -11,7 +11,7 @@ public class Business1 {
     private Dao1 dao1;
 
     @TrackTime
-    public String caculateSomething() {
+    public String calculateSomething() {
         return dao1.retrieveSomething();
     }
 }

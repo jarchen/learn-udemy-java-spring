@@ -9,7 +9,7 @@ public class Business2 {
     @Autowired
     private Dao2 dao2;
 
-    public String caculateSomething() {
+    public String calculateSomething() {
         return dao2.retrieveSomething();
     }
 }
