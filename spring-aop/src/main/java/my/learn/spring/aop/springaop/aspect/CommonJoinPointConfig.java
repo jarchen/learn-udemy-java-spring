@@ -22,4 +22,8 @@ public class CommonJoinPointConfig {
     @Pointcut("within(my.learn.spring.aop.springaop.data..*)")
     public void dataLayerExecutionWithWithin() {
     }
+
+    @Pointcut("@annotation(my.learn.spring.aop.springaop.aspect.TrackTime)")
+    public void trackTimeAnnotation() {
+    }
 }
