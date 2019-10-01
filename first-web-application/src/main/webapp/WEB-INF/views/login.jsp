@@ -8,7 +8,7 @@
     <span style="color: red; ">${errorMessage}</span>
 </p>
 
-<form action="/login.do" method="POST">
+<form action="/spring-mvc/login" method="POST">
     Name : <input name="name" type="text"/><br>
     Password : <input name="password" type="password"/><br>
     <input type="submit"/>
