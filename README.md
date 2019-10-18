@@ -1,4 +1,4 @@
-# javaSpringLearn
+# Udemy Learning Project with Java Spring
 
-- [Udemy 課程](https://www.udemy.com/spring-tutorial-for-beginners/)
-- 官方 [Github](https://github.com/in28minutes/spring-master-class)
+- :computer:[Spring Framework Master Class - Learn Spring the Modern Way!](https://www.udemy.com/spring-tutorial-for-beginners/)
+- :link:[Github](https://github.com/in28minutes/spring-master-class)
